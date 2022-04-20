@@ -1,0 +1,17 @@
+{
+	"name": "UpdateCustomer",
+	"properties": {
+		"content": {
+			"query": "UPDATE [dbo].[CustomerSource]\nSET LastName = 'Jigurda'\nWHERE [CustomerId] = 4",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "SQLPOOL1",
+				"poolName": "SQLPOOL1"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
